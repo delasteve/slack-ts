@@ -1,0 +1,29 @@
+// This file is auto-generated.
+
+export interface Static{{pascalCaseEndpoint}}Parameters {
+  {{#each endpoint.parameters}}
+  /**
+  {{#each description}}
+   * {{this}}
+  {{/each}}
+   */
+  {{parameter}}{{#unless required}}?{{/unless}}: {{type}};
+  {{#unless @last}}
+
+  {{/unless}}
+  {{/each}}
+}
+
+export interface {{pascalCaseEndpoint}}Parameters {
+  {{#each endpoint.parameters}}
+  /**
+  {{#each description}}
+   * {{this}}
+  {{/each}}
+   */
+  {{param parameter required}}: {{type}};
+  {{#unless @last}}
+
+  {{/unless}}
+  {{/each}}
+}
