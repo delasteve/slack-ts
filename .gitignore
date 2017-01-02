@@ -1,0 +1,21 @@
+# VS Code
+.vscode
+
+# Publish folder
+dist
+
+# NodeJS
+node_modules
+*.log
+yarn.lock
+
+# Environment files
+.env
+!.env.example
+
+# Temp files
+.tmp
+
+# Ignore OS specific Files
+.DS_Store
+Thumbs.db

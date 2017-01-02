@@ -1,0 +1,27 @@
+{
+  "name": "slack-ts",
+  "version": "1.0.0",
+  "description": "A Slack API written in typescript",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/delasteve/slack-ts"
+  },
+  "bugs": {
+    "url": "https://github.com/delasteve/slack-ts/issues"
+  },
+  "author": {
+    "name": "Stephen Cavaliere",
+    "email": "stephencavaliere@gmail.com",
+    "url": "https://stephencavaliere.io"
+  },
+  "scripts": {
+    "lint": "tslint -c 'tslint.json' --exclude 'node_modules/**/*' --exclude 'dist/**/*' '**/*.ts*'",
+    "build": "tsc --noUnusedLocals"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tslint": "4.0.2",
+    "typescript": "2.1.4"
+  }
+}
