@@ -30,7 +30,7 @@ export interface StaticReactionsGetParameters {
   /**
    * If true always return the complete reaction list.
    */
-  full?: string;
+  full?: boolean;
 }
 
 export interface ReactionsGetParameters {
@@ -63,5 +63,5 @@ export interface ReactionsGetParameters {
   /**
    * If true always return the complete reaction list.
    */
-  full?: string;
+  full?: boolean;
 }

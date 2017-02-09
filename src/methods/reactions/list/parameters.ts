@@ -15,7 +15,7 @@ export interface StaticReactionsListParameters {
   /**
    * If true always return the complete reaction list.
    */
-  full?: string;
+  full?: boolean;
 
   /**
    * Number of items to return per page.
@@ -43,7 +43,7 @@ export interface ReactionsListParameters {
   /**
    * If true always return the complete reaction list.
    */
-  full?: string;
+  full?: boolean;
 
   /**
    * Number of items to return per page.

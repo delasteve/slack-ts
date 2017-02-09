@@ -10,17 +10,17 @@ export interface StaticRtmStartParameters {
   /**
    * Return timestamp only for latest message object of each channel (improves performance).
    */
-  simple_latest?: string;
+  simple_latest?: boolean;
 
   /**
    * Skip unread counts for each channel (improves performance).
    */
-  no_unreads?: string;
+  no_unreads?: boolean;
 
   /**
    * Returns MPIMs to the client in the API response.
    */
-  mpim_aware?: string;
+  mpim_aware?: boolean;
 }
 
 export interface RtmStartParameters {
@@ -33,15 +33,15 @@ export interface RtmStartParameters {
   /**
    * Return timestamp only for latest message object of each channel (improves performance).
    */
-  simple_latest?: string;
+  simple_latest?: boolean;
 
   /**
    * Skip unread counts for each channel (improves performance).
    */
-  no_unreads?: string;
+  no_unreads?: boolean;
 
   /**
    * Returns MPIMs to the client in the API response.
    */
-  mpim_aware?: string;
+  mpim_aware?: boolean;
 }

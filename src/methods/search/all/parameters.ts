@@ -23,7 +23,7 @@ export interface StaticSearchAllParameters {
   sort_dir?: string;
 
   /**
-   * Pass a value of 1 to enable query highlight markers (see below).
+   * Pass a value of true to enable query highlight markers (see below).
    */
   highlight?: boolean;
 
@@ -61,7 +61,7 @@ export interface SearchAllParameters {
   sort_dir?: string;
 
   /**
-   * Pass a value of 1 to enable query highlight markers (see below).
+   * Pass a value of true to enable query highlight markers (see below).
    */
   highlight?: boolean;
 

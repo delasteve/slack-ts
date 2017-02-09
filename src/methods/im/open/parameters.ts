@@ -15,7 +15,7 @@ export interface StaticImOpenParameters {
   /**
    * Boolean, indicates you want the full IM channel definition in the response.
    */
-  return_im?: string;
+  return_im?: boolean;
 }
 
 export interface ImOpenParameters {
@@ -33,5 +33,5 @@ export interface ImOpenParameters {
   /**
    * Boolean, indicates you want the full IM channel definition in the response.
    */
-  return_im?: string;
+  return_im?: boolean;
 }
